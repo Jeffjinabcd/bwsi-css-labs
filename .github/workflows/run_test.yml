@@ -28,9 +28,10 @@ jobs:
         continue-on-error: true
 
       - name: Test with pytest 
+        env:
+          PYTHONPATH: .
         run: | 
-          coverage run -m pytest tests/ -v -s 
-
+          coverage run -m pytest tests/ -v -s
       - name: Generate Coverage Report 
         run: | 
           coverage report -m
