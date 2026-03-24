@@ -1,6 +1,6 @@
 # test_labs.py
-from lab_1c import max_subarray_sum
-from lab_1d import two_sum
+from labs.lab_1.lab_1c import max_subarray_sum
+from labs.lab_1.lab_1d import two_sum
 
 # --- Tests for lab_1c (Maximum Subarray) ---
 
