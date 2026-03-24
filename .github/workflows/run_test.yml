@@ -24,8 +24,8 @@ jobs:
 
       - name: Lint with Ruff 
         run: | 
-          ruff check --output-format=github --target-version=py310 . 
-        continue-on-error: true 
+          ruff check . --format=github --target-version=py310
+        continue-on-error: true
 
       - name: Test with pytest 
         run: | 
@@ -34,3 +34,7 @@ jobs:
       - name: Generate Coverage Report 
         run: | 
           coverage report -m
+
+
+
+          
