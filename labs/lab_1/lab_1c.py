@@ -1,7 +1,7 @@
 def max_subarray_sum(nums: list[int]) -> int:
     """
-    Function that takes in a list of integers and returns the maximum sum of any contiguous subarray.
-
+Function that takes in a list of integers and returns the maximum 
+sum of any contiguous subarray.
     Args:
         nums (list[int]): List of integers.
 

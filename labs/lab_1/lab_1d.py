@@ -1,6 +1,7 @@
 def two_sum(nums: list[int], target: int) -> list[int]:
     """
-    Function that takes in a list of integers and a target integer, and returns the indices of the two numbers that add up to the target.
+    Function that takes in a list of integers and a target integer, 
+and returns the indices of the two numbers that add up to the target.
 
     Args:
         nums (list[int]): List of integers.
